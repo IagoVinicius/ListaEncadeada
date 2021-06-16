@@ -22,6 +22,7 @@ void encerraLista(lista ptlista){
     printf("\n Lista Encerrada!");
 }
 
+
 void mostraLista(lista ptlista){
     if(ptlista != NULL){
 
@@ -35,6 +36,7 @@ void mostraLista(lista ptlista){
     }
 
 }
+
 
 lista insereLista_final(lista ptlista, int valor){
     lista aux, par;
@@ -103,6 +105,7 @@ lista insereLista_inicio(lista ptlista, int valor){
     return ptlista;
 }
 
+
 lista removeLista_elemento(lista *ptlista, int valor){
     
     lista aux = *ptlista;
@@ -148,6 +151,7 @@ lista removeLista_final(lista *ptlista){
     
     return aux;
 }
+
 
 void menu(){
     
